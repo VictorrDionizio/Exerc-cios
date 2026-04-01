@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main (){
+
+    int contador;
+
+    printf( "Digite um número de 0 até 9: ");
+    scanf("%d" ,&contador);
+
+    while( contador < 11 ) {
+    printf("%d ", contador);
+contador = contador + 1;
+}
+    return 0;
+}
